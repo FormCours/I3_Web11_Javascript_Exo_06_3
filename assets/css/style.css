@@ -1,0 +1,33 @@
+html {
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    margin: auto;
+}
+
+main > div {
+    width: 50%;
+}
+
+#img-von-dake {
+    height: 350px;
+}
+
+label::after {
+    content: ":";
+    margin-left: 1ch;
+    margin-right: 1ch;
+}
+
+.masquer {
+    display: none;
+}

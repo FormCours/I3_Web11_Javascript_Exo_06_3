@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 06 - Bonus</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <h1>Exercice 06 - Bonus</h1>
+    <main>
+        <div>
+            <h2>6.6) Calcule de forme géometrique</h2>
+
+            <h3>Veuillez choisir le type de forme</h3>
+            <div>
+                <select id="select-form">
+                    <option value="" disabled selected> --- </option>
+                    <option value="1">Rectangle</option>
+                    <option value="2">Triangle Rectangle</option>
+                    <option value="3">Carré</option>
+                    <option value="4">Cercle</option>
+                </select>
+                <button id="btn-form">Valider</button>
+            </div>
+
+            <div id="zone-calc" class="masquer">
+                <h3>Veuillez encoder les valeurs</h3>
+                <div id="zone-val1">
+                    <label id="label-val1" for="input-val1">Valeur 1</label>
+                    <input id="input-val1" type="text">
+                </div>
+                <div id="zone-val2">
+                    <label id="label-val2" for="input-val2">Valeur 2</label>
+                    <input id="input-val2" type="text">
+                </div>
+                <div>
+                    <button id="btn-calc">Calculer</button>
+                </div>
+
+                <h3>Resultat...</h3>
+                <p id="display-result">Aucun calcul effectué !</p>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/images/ludwig.webp" alt="Prof Ludwig Von Dake" id="img-von-dake">
+        </div>
+    </main>
+
+    <script src="./assets/scripts/script.js"></script>
+</body>
+
+</html>
